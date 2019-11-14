@@ -24,8 +24,6 @@ while 1:
         # win.add_overlay(get_num)
         print(get_num.__len__())
 
-
-
     on = cv2.waitKey(1)
     if on == ord('q'):
         break

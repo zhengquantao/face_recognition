@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_model/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/000183_02159543.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/000305_00470717.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faces/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_call_camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/camvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/facefinder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/puploc.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/examples/webcam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/lploc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/pico.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/wasm/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/wasm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/wasm/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picojs-master/wasm/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/util/pwd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/views/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/views/auths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/views/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_call.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_call.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,20 +56,24 @@
   <component name="ProjectId" id="1TNC9zJUb1CBJVvPUCrIuczKn0G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/faces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/picojs-master/examples" />
+      <recent name="$PROJECT_DIR$/webApp/util" />
+      <recent name="$PROJECT_DIR$/faces" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/faces" />
       <recent name="$PROJECT_DIR$/face_model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/faces" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,7 +202,11 @@
       <workItem from="1573291113993" duration="72000" />
       <workItem from="1573291241063" duration="85000" />
       <workItem from="1573291326993" duration="8279000" />
-      <workItem from="1573350439877" duration="14386000" />
+      <workItem from="1573350439877" duration="16118000" />
+      <workItem from="1573446469335" duration="1521000" />
+      <workItem from="1573536168312" duration="1222000" />
+      <workItem from="1573622952566" duration="3247000" />
+      <workItem from="1573695953173" duration="34388000" />
     </task>
     <servers />
   </component>
@@ -207,7 +228,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/homework$test_face1.coverage" NAME="test_face1 Coverage Results" MODIFIED="1573303244297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/homework$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1573371489407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1573653929140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$test_face2.coverage" NAME="test_face2 Coverage Results" MODIFIED="1573353961052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
