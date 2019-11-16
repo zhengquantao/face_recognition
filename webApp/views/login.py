@@ -1,18 +1,22 @@
-from django.core.cache import cache
-from rest_framework.views import APIView
-from rest_framework.response import Response
+# from django.core.cache import cache
+from django.shortcuts import render
+from django.http import JsonResponse
 from webApp.models import UserInfo
 from webApp.util import information, pwd
 import uuid
 
 
-class LoginView(APIView):
-    def post(self, request, *args, **kwargs):
-        username = request.data.get("username")
-        password = request.data.get("password")
-        salt_password = pwd.hashpwd(password)
-        exists = UserInfo.objects.filter(job=username, password=salt_password)
-        if not exists:
-            return Response(information.error)
-        cache.set(username, uuid.uuid4(), 60*60*6)
-        return Response(information.success)
+def login(request):
+    if request.method == "GET":
+        return render(request, 'login.html')
+
+    username = request.POST.get("user")
+    password = request.POST.get("pwd")
+    # status = request.POST.get('status')
+    salt_password = pwd.hashpwd(password)
+    exists = UserInfo.objects.filter(job=username, password=salt_password)
+    if not exists:
+        return JsonResponse(information.error)
+    # cache.set(username, uuid.uuid4(), 60*60*6)
+    request.session['user'] = username
+    return JsonResponse(information.success)

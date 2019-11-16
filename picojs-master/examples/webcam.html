@@ -12,6 +12,7 @@
 	<script>
 		var initialized = false;
 		var get_status = false;
+		var path;
 		function button_callback() {
 			/*
 				(0) check whether we're already running face detection
@@ -35,6 +36,7 @@
 			/*
 				(3) get the drawing context on the canvas and define a function to transform an RGBA image to grayscale
 			*/
+
 			var ctx = document.getElementsByTagName('canvas')[0].getContext('2d');
 			function rgba_to_grayscale(rgba, nrows, ncols) {
 				var gray = new Uint8Array(nrows*ncols);
@@ -89,18 +91,17 @@
                     }
                 }
                 if (get_status){
-                    var image = document.getElementsByName("img");
-                    //ctx.drawImage(video, 0, 0);
-                    //image.src = ctx.toDataURL("image/png")
-                    return image;
-                    //return ctx;
+                    canvas1 = document.getElementById("canvas");
+                    canvas1.getContext('2d').drawImage(video, 0, 0, 600, 480);
+                    path = canvas1.toDataURL('image/webp');
+
                 }
 			};
 			/*
 				(5) instantiate camera handling (see https://github.com/cbrandolino/camvas)
 			*/
-			var mycamvas = new camvas(ctx, processfn);
-			console.log(mycamvas, get_status)
+			var mycamvas = new camvas(ctx, processfn, get_status);
+
 
 
 			/*
@@ -108,11 +109,18 @@
 			*/
 			initialized = true;
 		}
+		function request() {
+            
+        }
 	</script>
 	<body>
+    <div>
 		<p><center><input type="button" value="Start webcam feed" onclick="button_callback()"></center></p>
-        <p><img src=""></p>
-		<p><center><canvas width=640 height=480></canvas></center></p>
+        <video autoplay style="display: none"></video>
+        <p><center><canvas width=640 height=480 style="display:block"></canvas></center></p>
+        <div>
+            <canvas id="canvas" width=640 height=480 style="display: none;"></canvas>
+        </div>
 	</div>
 	</body>
 </html>
