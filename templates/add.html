@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>人脸识别</title>
+    <title>记录人脸</title>
+        <link rel="icon" href="/static/images/icons.jpg" sizes="60x60">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/static/images/icons.jpg" sizes="30x30">
 </head>
 	<body>
     <div>
         {% csrf_token %}
-		<p><center><input type="button" value="人脸打卡" onclick="button_callback()"></center></p>
+		<p><center><input type="button" value="开始录入人脸数据" onclick="button_callback()"></center></p>
         <video autoplay style="display: none"></video>
         <p><center><canvas width=640 height=480 style="display:block"></canvas></center></p>
         <div>
@@ -26,14 +26,8 @@
 		var get_code = false;
 		var path;
 		function button_callback() {
-			/*
-				(0) check whether we're already running face detection
-			*/
 			if(initialized)
-				return; // if yes, then do not initialize everything again
-			/*
-				(1) initialize the pico.js face detector
-			*/
+				return;
 			var update_memory = pico.instantiate_detection_memory(5); // we will use the detecions of the last 5 frames
 			var facefinder_classify_region = function(r, c, s, pixels, ldim) {return -1.0;};
 			var cascadeurl = '/static/js/facefinder';
@@ -69,18 +63,12 @@
 					"maxsize": 1000,    // maximum size of a face
 					"scalefactor": 1.1  // for multiscale processing: resize the detection window by 10% when moving to the higher scale
 				}
-				// run the cascade over the frame and cluster the obtained detections
-				// dets is an array that contains (r, c, s, q) quadruplets
-				// (representing row, column, scale and detection score)
 				dets = pico.run_cascade(image, facefinder_classify_region, params);
 				dets = update_memory(dets);
 				dets = pico.cluster_detections(dets, 0.2); // set IoU threshold to 0.2
 				// draw detections
 				for(i=0; i<dets.length; ++i) {
-                    // check the detection score
-                    // if it's above the threshold, draw it
-                    // (the constant 50.0 is empirical: other cascades might require a different one)
-                    if (dets[i][3] > 50.0) {
+                  if (dets[i][3] > 50.0) {
                         get_status = true;
                         var r, c, s;
                         ctx.beginPath();
@@ -88,7 +76,6 @@
                         ctx.lineWidth = 1;
                         ctx.strokeStyle = 'red';
                         ctx.stroke();
-
                     } else {
                         get_status = false
                     }
@@ -105,7 +92,7 @@
                 }
 			};
 			var mycamvas = new camvas(ctx, processfn, get_status);
-            
+
 			initialized = true;
 		}
 		function request(pa) {
@@ -113,17 +100,15 @@
 		    formData.append("img", pa);
 		    formData.append("csrfmiddlewaretoken", $("[name='csrfmiddlewaretoken']").val());
             $.ajax({
-                url: '/face/',
+                url: '/add/',
                 type:'POST',
                 processData: false,
                 contentType:false,
                 data:formData,
                 success:function (response) {
-                    if(response.status == 1005){
-                        get_code = false;
+                    if(response.status == 1007){
                         alert(response.msg)
                     }else{
-                        get_code = false;
                         alert(response.msg)
                     }
                 }

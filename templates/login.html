@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <title>登录页面</title>
-    <!-- Bootstrap core CSS -->
+    <link rel="icon" href="/static/images/icons.jpg" sizes="60x60">
     <link href="/static/css/bootstrap.css" rel="stylesheet">
     <meta name="theme-color" content="#563d7c">
     <style>
@@ -89,8 +89,6 @@
             font-size: 12px;
             color: #777;
         }
-        /* Fallback for Edge
-        -------------------------------------------------- */
         @supports (-ms-ime-align: auto) {
             .form-label-group > label {
                 display: none;
@@ -99,26 +97,23 @@
                 color: #777;
             }
         }
-        /* Fallback for IE
-        -------------------------------------------------- */
         @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
             .form-label-group > label {
                 display: none;
             }
-
             .form-label-group input:-ms-input-placeholder {
                 color: #777;
             }
         }
-
     </style>
 </head>
 <body>
 <form class="form-signin">
+    {% csrf_token %}
     <div class="text-center mb-4">
-        <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <img class="mb-4" src="/static/images/icon.jpg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">欢迎来到后台页面</h1>
-        <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a
+        <p>if not me, who ? if not now, when ? <code>此时此刻, 非你莫属</code> <a
                 href="/">去打卡</a>
         </p>
     </div>
@@ -144,15 +139,20 @@
 </form>
 <script src="/static/js/jquery-1.12.4.js"></script>
 <script>
-    const user = $('#inputUser').val();
-    const pwd = $('#inputPassword').val();
-    const url = '/login/';
 
     $('.btn-login').click(function () {
+        const user = $('#inputUser').val();
+        const pwd = $('#inputPassword').val();
+        const url = '/login/';
         if(user.length<10 || pwd.length<6){
             alert("请输入正确工号 或者 正确密码不能少于6位")
         }else{
-            $.post(url, {'user': user, 'pwd': pwd, 'status':  $('input[name="select"]:checked').val()}, function (data) {
+            $.post(url, {
+                'user': user,
+                'pwd': pwd,
+                'status':  $('input[name="select"]:checked').val(),
+                "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()
+            }, function (data) {
                 if(data.status == 1001){
                     alert(data.msg)
                 }

@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from webApp.util import information
 from webApp.util.face import Face
@@ -41,3 +41,25 @@ def face(request):
                 else:
                     return JsonResponse(information.play_error)
     return JsonResponse(information.play_error)
+
+
+def add(request):
+    job = request.session.get("user")
+    if request.method == "GET":
+        is_image = UserInfo.objects.filter(job=job).values("image")
+        if not is_image:
+            return redirect(information.error_path)
+        return render(request, "add.html")
+
+    images = request.POST.get("img")
+    if not job:
+        return JsonResponse(information.timeout)
+    if not images:
+        return JsonResponse(information.play_error)
+    img = base64.b64decode(images.split(',')[1])
+    img_path = os.path.join("faces", job)
+    with open(img_path, 'wb') as m:
+        m.write(img)
+        m.close()
+    UserInfo.objects.filter(job=job).update(image=img_path)
+    return JsonResponse(information.record_success)

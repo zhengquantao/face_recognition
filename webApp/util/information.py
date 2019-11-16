@@ -5,3 +5,7 @@ unsave = {"status": 1003, "msg": "无法通过安全验证"}
 load = {"status": 1004, "msg": "正在加载..."}
 play_success = {"status": 1005, "msg": "签到成功"}
 play_error = {"status": 1006, "msg": "签到失败"}
+record_success = {"status": 1007, "msg": "记录成功"}
+record_erorr = {"status": 1008, "msg": "记录失败, 请刷新页面后重试"}
+is_image = {"status": 2001, "msg": "你已经录过人脸, 请勿重复操作"}
+error_path = "/error/"
