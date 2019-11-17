@@ -25,5 +25,7 @@ urlpatterns = [
     path('face/', face.face),
     path('add/', face.add),
     path('error/', error.error),
+    path('logout/', login.logout),
+    path('person/', admins.person),
     path('', face.home)
 ]

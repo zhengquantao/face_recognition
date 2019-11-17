@@ -1,12 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>个人中心</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/static/images/icons.jpg" sizes="60x60">
-</head>
-<body>
-{{ time_list }}
-</body>
-</html>
+{% extends 'base.html' %}
+{% block body %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">签到记录</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+                <button type="button" class="btn btn-sm btn-outline-secondary">分享</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+            </div>
+            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="feather feather-calendar">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                时间
+            </button>
+        </div>
+    </div>
+    <div id="main" style="width: 600px;height:400px;"  class="my-4 w-100 chartjs-render-monitor"></div>
+    <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="1539" height="649"
+            style="display: block; width: 1539px; height: 649px;">
+
+    </canvas>
+
+{% endblock %}
+{% block bottom %}
+<script src="/static/js/echarts.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script>
+    (function () {
+        'use strict'
+        feather.replace()
+        // Graphs
+        var ctx = document.getElementById('myChart')
+        // eslint-disable-next-line no-unused-vars
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    'Sunday',
+                    'Monday',
+                    'Tuesday',
+                    'Wednesday',
+                    'Thursday',
+                    'Friday',
+                    'Saturday'
+                ],
+                datasets: [{
+                    data: [
+                        15339,
+                        21345,
+                        18483,
+                        24003,
+                        23489,
+                        24092,
+                        12034
+                    ],
+                    lineTension: 0,
+                    backgroundColor: 'transparent',
+                    borderColor: '#007bff',
+                    borderWidth: 4,
+                    pointBackgroundColor: '#007bff'
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: false
+                        }
+                    }]
+                },
+                legend: {
+                    display: false
+                }
+            }
+        })
+    }())
+</script>
+<script type="text/javascript">
+    // based on prepared DOM, initialize echarts instance
+    var myChart = echarts.init(document.getElementById('main'));
+    var years = {{ item|safe }};
+    var year_now;
+    function getVirtulData(years) {
+        var series_list = new Array();
+        var calendar_list = new Array();
+        var index = 0;
+        var date=new Date;
+        var y = date.getFullYear();
+        for(var obj in years){
+            calendar_list.push({
+                top: 120+index*200,
+                left: 30,
+                right: 30,
+                cellSize: ['auto', 25],
+                range: y,
+                itemStyle: {
+                    normal: {borderWidth: 1.5}
+                },
+                yearLabel: {show: false}
+            });
+             series_list.push({
+                 type: 'heatmap',
+                 coordinateSystem: 'calendar',
+                 calendarIndex: index,
+                 data: years[obj],
+                 itemStyle: {
+                    normal: {
+                        color: '#5291FF'
+                    }
+                 }
+            });
+            index++;
+        }
+        return [series_list, calendar_list]
+    }
+    option = {
+        title: {
+            top: 30,
+            left: 'center',
+            text: '年签到表',
+            subtext: '蓝色表示当天已签到, 白色表示当天未签到',
+        },
+        tooltip : {
+            //position: 'top',
+            formatter: function (params) {
+                return params.value[3] + "早上" + params.value[0] + "下午" + params.value[1] + params.value[2];
+            }
+        },
+        visualMap: {
+            type: 'piecewise',
+            orient: 'horizontal',
+            show:false,
+            left: 'center',
+            top: 65,
+            textStyle: {
+                color: '#000'
+            }
+        },
+        calendar: getVirtulData(years)[1],
+        series:  getVirtulData(years)[0]
+
+    };
+    myChart.setOption(option)
+</script>
+{% endblock %}

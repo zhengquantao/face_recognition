@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/views/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/person.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/000183_02159543.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/000305_00470717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/face.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/face.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/admins.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/admins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/views/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +42,17 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -76,7 +86,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,18 +95,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/faces" />
+      <recent name="$PROJECT_DIR$/webApp/util" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webApp/util/model" />
       <recent name="$PROJECT_DIR$/picojs-master/examples" />
       <recent name="$PROJECT_DIR$/webApp/util" />
       <recent name="$PROJECT_DIR$/faces" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/faces" />
-      <recent name="$PROJECT_DIR$/webApp/util" />
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pwd">
+  <component name="RunManager" selected="Django server.homework">
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/homework/templates/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -241,12 +251,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@175e4ab1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -273,7 +278,8 @@
       <workItem from="1573622952566" duration="3247000" />
       <workItem from="1573695953173" duration="34388000" />
       <workItem from="1573793315546" duration="20453000" />
-      <workItem from="1573868487823" duration="34452000" />
+      <workItem from="1573868487823" duration="34727000" />
+      <workItem from="1573956693439" duration="29628000" />
     </task>
     <servers />
   </component>

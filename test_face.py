@@ -58,7 +58,7 @@ face_rec_model_path = "./face_model/dlib_face_recognition_resnet_model_v1.dat"
 face_ = FaceRecognition(predictor_path, face_rec_model_path)
 
 
-img_1 = './faces/1.jpg'
+img_1 = './faces/2016032528.png'
 img_2 = './faces/2.png'  # 000183_02159543
 m = time.time()
 goal = face_.score(img_1, img_2)

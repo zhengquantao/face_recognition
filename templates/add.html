@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>记录人脸</title>
-        <link rel="icon" href="/static/images/icons.jpg" sizes="60x60">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-	<body>
-    <div>
+{% extends 'base.html' %}
+{% block body %}
+    <div style="margin-top: 80px;">
         {% csrf_token %}
-		<p><center><input type="button" value="开始录入人脸数据" onclick="button_callback()"></center></p>
+		<p><center><button class="btn btn-primary" onclick="button_callback()">开始录入人脸数据</button></center></p>
         <video autoplay style="display: none"></video>
         <p><center><canvas width=640 height=480 style="display:block"></canvas></center></p>
         <div>
             <canvas id="canvas" width=200 height=200 style="display: none;"></canvas>
         </div>
 	</div>
-    <script src="/static/js/jquery-1.12.4.js"></script>
+{% endblock %}
+
+{% block bottom %}
     <script src="/static/js/camvas.js"></script>
     <script src="/static/js/pico.js"></script>
     <script src="/static/js/lploc.js"></script>
@@ -115,5 +110,4 @@
             })
         }
 	</script>
-    </body>
-</html>
+{% endblock %}

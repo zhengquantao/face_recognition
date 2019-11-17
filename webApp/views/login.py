@@ -1,5 +1,4 @@
-# from django.core.cache import cache
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from webApp.models import UserInfo
 from webApp.util import information, pwd
@@ -20,3 +19,8 @@ def login(request):
     # cache.set(username, uuid.uuid4(), 60*60*6)
     request.session['user'] = username
     return JsonResponse(information.success)
+
+
+def logout(request):
+    request.session.pop("user")
+    return redirect("/login/")

@@ -5,11 +5,31 @@
     <title>人脸识别</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/static/images/icons.jpg" sizes="30x30">
+    <style>
+        button{
+            height:40px;
+            width: 200px;
+            color: #fff;
+            font-weight: 700;
+            background-color: #007bff;
+            border-color: #007bff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #007bda;
+        }
+    </style>
 </head>
 	<body>
     <div>
         {% csrf_token %}
-		<p><center><input type="button" value="人脸打卡" onclick="button_callback()"></center></p>
+		<p>
+        <center>
+            <button type="button"  onclick="button_callback()">人脸打卡</button>
+            <a href="/login/"><button type="button">去登陆</button></a>
+        </center>
+        </p>
         <video autoplay style="display: none"></video>
         <p><center><canvas width=640 height=480 style="display:block"></canvas></center></p>
         <div>

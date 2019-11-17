@@ -26,10 +26,10 @@ def face(request):
             score = Face.score(os.path.join("faces", job), img_path)
             if score < 0.5:
                 time = datetime.datetime.now()
-                user = UserInfo.objects.filter(job=job).fisrt()
+                user_obj = UserInfo.objects.get(image="faces/"+job)
                 # 早上时间打卡
                 if 7 < time.hour < 9:
-                    DateAndWeek.objects.create(user=user, starttime=time)
+                    DateAndWeek.objects.create(user=user_obj, starttime=time, status="已签到")
                     return JsonResponse(information.play_success)
                 # 下午时间打卡
                 elif 17 < time.hour < 20:
@@ -57,7 +57,7 @@ def add(request):
     if not images:
         return JsonResponse(information.play_error)
     img = base64.b64decode(images.split(',')[1])
-    img_path = os.path.join("faces", job)
+    img_path = os.path.join("faces", job+'.png')
     with open(img_path, 'wb') as m:
         m.write(img)
         m.close()
