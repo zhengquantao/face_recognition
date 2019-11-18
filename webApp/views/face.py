@@ -27,28 +27,39 @@ def face(request):
             if score < 0.5:
                 time = datetime.datetime.now()
                 user_obj = UserInfo.objects.get(image="faces/"+job)
+
+                # is_get = DateAndWeek.objects.filter(user__job=job, starttime__year=time.year,
+                #                                starttime__month=time.month, starttime__day=time.day)
+                # if is_get:
+                #     return JsonResponse(information.play_exits)
+                # DateAndWeek.objects.create(user=user_obj, starttime=time, status="已签到")
+
                 # 早上时间打卡
                 if 7 < time.hour < 9:
+                    is_get = DateAndWeek.objects.filter(user__job=job, starttime__year=time.year,
+                                               starttime__month=time.month, starttime__day=time.day)
+                    if is_get:
+                        return JsonResponse(information.play_exits)
                     DateAndWeek.objects.create(user=user_obj, starttime=time, status="已签到")
                     return JsonResponse(information.play_success)
                 # 下午时间打卡
                 elif 17 < time.hour < 20:
                     DateAndWeek.objects.filter(user__job=job, starttime__year=time.year,
                                                starttime__month=time.month, starttime__day=time.day).update(endtime=time)
-
-                    return JsonResponse(information.play_success)
-
+                    return JsonResponse(information.play_back)
                 else:
                     return JsonResponse(information.play_error)
+
+                # return JsonResponse(information.play_success)
     return JsonResponse(information.play_error)
 
 
 def add(request):
     job = request.session.get("user")
     if request.method == "GET":
-        is_image = UserInfo.objects.filter(job=job).values("image")
-        if not is_image:
-            return redirect(information.error_path)
+        # is_image = UserInfo.objects.filter(job=job).values("image")
+        # if is_image:
+        #     return redirect(information.error_path)
         return render(request, "add.html")
 
     images = request.POST.get("img")
@@ -56,6 +67,9 @@ def add(request):
         return JsonResponse(information.timeout)
     if not images:
         return JsonResponse(information.play_error)
+    is_image = UserInfo.objects.filter(job=job).values("image")
+    if is_image[0]['image']:
+        return JsonResponse(information.is_image)
     img = base64.b64decode(images.split(',')[1])
     img_path = os.path.join("faces", job+'.png')
     with open(img_path, 'wb') as m:

@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block header %}
+    <link rel="stylesheet" href="/static/css/sweetalert.css">
+{% endblock %}
 {% block body %}
     <div style="margin-top: 80px;">
         {% csrf_token %}
@@ -13,6 +16,7 @@
 
 {% block bottom %}
     <script src="/static/js/camvas.js"></script>
+    <script src="/static/js/sweetalert.min.js"></script>
     <script src="/static/js/pico.js"></script>
     <script src="/static/js/lploc.js"></script>
     <script>
@@ -82,12 +86,12 @@
                     if (get_code){
                         return
                     }else{
+                        get_code = true;
                         request(path)
                     }
                 }
 			};
 			var mycamvas = new camvas(ctx, processfn, get_status);
-
 			initialized = true;
 		}
 		function request(pa) {
@@ -102,9 +106,11 @@
                 data:formData,
                 success:function (response) {
                     if(response.status == 1007){
-                        alert(response.msg)
+                        swal("操作成功!", response.msg, "success");
+                        setTimeout(function(){location.reload()},3000)
                     }else{
-                        alert(response.msg)
+                        swal("操作失败!", response.msg, "error");
+                        setTimeout(function(){location.reload()},2000)
                     }
                 }
             })

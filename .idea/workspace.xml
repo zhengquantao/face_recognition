@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/person.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_person.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/000183_02159543.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/000305_00470717.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/2016032528.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032528.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/face.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/face.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/views/admins.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/admins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/views/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +89,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -95,18 +98,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/faces" />
-      <recent name="$PROJECT_DIR$/webApp/util" />
-      <recent name="$PROJECT_DIR$/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webApp/util/model" />
       <recent name="$PROJECT_DIR$/picojs-master/examples" />
       <recent name="$PROJECT_DIR$/webApp/util" />
       <recent name="$PROJECT_DIR$/faces" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/faces" />
+      <recent name="$PROJECT_DIR$/webApp/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,14 +224,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="homework.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -237,6 +240,14 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.homework" />
+      <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="Python.pwd" />
+      <item itemvalue="Python.test_call" />
+      <item itemvalue="Python.test_face2" />
+      <item itemvalue="Python.tests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.pwd" />
@@ -279,7 +290,8 @@
       <workItem from="1573695953173" duration="34388000" />
       <workItem from="1573793315546" duration="20453000" />
       <workItem from="1573868487823" duration="34727000" />
-      <workItem from="1573956693439" duration="29628000" />
+      <workItem from="1573956693439" duration="33718000" />
+      <workItem from="1574050891673" duration="22764000" />
     </task>
     <servers />
   </component>

@@ -27,5 +27,6 @@ urlpatterns = [
     path('error/', error.error),
     path('logout/', login.logout),
     path('person/', admins.person),
+    path('insert/', admins.add_person),
     path('', face.home)
 ]

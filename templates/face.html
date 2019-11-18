@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <title>人脸识别</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/static/images/icons.jpg" sizes="30x30">
+    <link rel="icon" href="/static/images/icons.png" sizes="30x30">
+    <link rel="stylesheet" href="/static/css/sweetalert.css">
     <style>
+        body{
+            background-image: url("/static/images/background.jpg");
+        }
         button{
             height:40px;
             width: 200px;
@@ -37,6 +41,7 @@
         </div>
 	</div>
     <script src="/static/js/jquery-1.12.4.js"></script>
+    <script src="/static/js/sweetalert.min.js"></script>
     <script src="/static/js/camvas.js"></script>
     <script src="/static/js/pico.js"></script>
     <script src="/static/js/lploc.js"></script>
@@ -120,6 +125,7 @@
                     if (get_code){
                         return
                     }else{
+                        get_code = true;
                         request(path)
                     }
                 }
@@ -140,11 +146,13 @@
                 data:formData,
                 success:function (response) {
                     if(response.status == 1005){
-                        get_code = false;
-                        alert(response.msg)
+                        //get_code = false;
+                        swal("操作成功!", response.msg, "success");
+                        setTimeout(function(){location.reload()},2000)
                     }else{
-                        get_code = false;
-                        alert(response.msg)
+                        //get_code = false;
+                        swal("操作失败!", response.msg, "error");
+                        setTimeout(function(){location.reload()},2000)
                     }
                 }
             })

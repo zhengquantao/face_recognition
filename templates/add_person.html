@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% block header %}
+    <link rel="stylesheet" href="/static/css/sweetalert.css">
+{% endblock %}
+{% block body %}
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">增加用户</h1>
+    </div>
+        <form class="col-md-6" style="top:20%;left:25%;">
+        {% csrf_token %}
+            <div class="form-group row">
+                <label for="inputJob" class="col-md-1 col-form-label"><strong>工号</strong></label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputJob">
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputUser" class="col-md-1 col-form-label"><strong>用户</strong></label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputUser">
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputPassword" class="col-md-1 col-form-label"><strong>密码</strong></label>
+            <div class="col-md-10">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+            <div class="form-group row">
+                <label for="inputProfession" class="col-md-1 col-form-label"><strong>职称</strong></label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputProfession">
+            </div>
+          </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-md-1 col-form-label"><strong>邮箱</strong></label>
+            <div class="col-md-10">
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-md-10">
+              <button type="button" class="btn btn-primary" id="addPerson">确认增加</button>
+            </div>
+          </div>
+        </form>
+{% endblock %}
+{% block bottom %}
+    <script src="/static/js/sweetalert.min.js"></script>
+<script>
+    $("body").keydown(function() {
+        if (event.keyCode == "13") {
+            send();
+        }
+    });
+    $('#addPerson').click(function () {
+        send()
+    });
+    function send() {
+        const job = $('#inputJob').val();
+        const user = $('#inputUser').val();
+        const pwd = $('#inputPassword').val();
+        const profession = $('#inputProfession').val();
+        const email = $('#inputEmail').val();
+        if (job.length > 0){
+            if(user.length > 0){
+                if(pwd.length >= 6){
+                    if(profession.length > 0){
+                        $.post("/insert/", {"username": user, "job": job, "password": pwd, "profession": profession,
+                            "email": email, "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()}, function (data) {
+                            if(data.status == 2002){
+                                swal("操作成功!", data.msg, "success");
+                            }else{
+                                swal("错误!", data.msg, "error");
+                            }
+                        })
+                    }else{
+                        swal("错误!", "职称不能为空", "error");
+                    }
+                }else{
+                    swal("错误!", "密码不能小于6位!", "error");
+                }
+            }else{
+                swal("错误!", "名字不能为空!", "error");
+            }
+        }else{
+             swal("错误!", "职工号不能为空!", "error");
+        }
+    }
+</script>
+{% endblock %}

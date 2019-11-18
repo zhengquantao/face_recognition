@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <title>登录页面</title>
-    <link rel="icon" href="/static/images/icons.jpg" sizes="60x60">
+    <link rel="icon" href="/static/images/icons.png" sizes="60x60">
     <link href="/static/css/bootstrap.css" rel="stylesheet">
     <meta name="theme-color" content="#563d7c">
     <style>
@@ -111,7 +111,9 @@
 <form class="form-signin">
     {% csrf_token %}
     <div class="text-center mb-4">
-        <img class="mb-4" src="/static/images/icon.jpg" alt="" width="72" height="72">
+        <a href="https://github.com/ctpbee">
+        <img class="mb-4" src="/static/images/icons.png" alt="" width="72" height="72">
+        </a>
         <h1 class="h3 mb-3 font-weight-normal">欢迎来到后台页面</h1>
         <p>if not me, who ? if not now, when ? <code>此时此刻, 非你莫属</code> <a
                 href="/">去打卡</a>
@@ -135,12 +137,19 @@
         </label>
     </div>
     <button class="btn btn-lg btn-primary btn-block btn-login" type="button">登录</button>
-    <p class="mt-5 mb-3 text-muted text-center">© 2017-2019</p>
+    <p class="mt-5 mb-3 text-muted text-center"></p>
 </form>
 <script src="/static/js/jquery-1.12.4.js"></script>
 <script>
-
+    $("body").keydown(function() {
+        if (event.keyCode == "13") {
+            send();
+        }
+    });
     $('.btn-login').click(function () {
+        send()
+    });
+    function send() {
         const user = $('#inputUser').val();
         const pwd = $('#inputPassword').val();
         const url = '/login/';
@@ -161,7 +170,7 @@
                 }
             })
         }
-    })
+    }
 </script>
 </body>
 </html>

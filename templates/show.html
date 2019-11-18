@@ -91,25 +91,34 @@
         var series_list = new Array();
         var calendar_list = new Array();
         var index = 0;
-        var date=new Date;
+        var height;
+        var date = new Date;
         var y = date.getFullYear();
         for(var obj in years){
+            height = 120+index*200;
             calendar_list.push({
-                top: 120+index*200,
-                left: 30,
+                top: height,
+                left: 80,
                 right: 30,
-                cellSize: ['auto', 25],
+                orient: 'horizontal',
                 range: y,
                 itemStyle: {
                     normal: {borderWidth: 1.5}
                 },
-                yearLabel: {show: false}
+                yearLabel: {
+                    margin:40,
+                    formatter: years[obj][0][3],
+                    textStyle: {
+                         color: '#000'
+                    }
+                }
             });
              series_list.push({
                  type: 'heatmap',
                  coordinateSystem: 'calendar',
                  calendarIndex: index,
                  data: years[obj],
+                 name: index,
                  itemStyle: {
                     normal: {
                         color: '#5291FF'
@@ -118,6 +127,8 @@
             });
             index++;
         }
+        myChart.resize(600, height);
+        $("#main").height(height+200);
         return [series_list, calendar_list]
     }
     option = {
@@ -133,16 +144,7 @@
                 return params.value[3] + "早上" + params.value[0] + "下午" + params.value[1] + params.value[2];
             }
         },
-        visualMap: {
-            type: 'piecewise',
-            orient: 'horizontal',
-            show:false,
-            left: 'center',
-            top: 65,
-            textStyle: {
-                color: '#000'
-            }
-        },
+
         calendar: getVirtulData(years)[1],
         series:  getVirtulData(years)[0]
 
