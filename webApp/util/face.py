@@ -37,7 +37,7 @@ class FaceCompare:
         data1 = self.face_detection(url_img_1)
         data2 = self.face_detection(url_img_2)
         goal = self.compare(data1, data2)
-        # 判断结果，如果goal小于0.6的话是同一个人，否则不是。我所用的是欧式距离判别
+        # 判断结果，如果goal小于0.4的话是同一个人，否则不是。我所用的是欧式距离判别
         return goal
 
 

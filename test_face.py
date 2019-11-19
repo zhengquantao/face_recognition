@@ -23,19 +23,13 @@ class FaceRecognition:
         self.face_rec_model = dlib.face_recognition_model_v1(self.face_rec_model_path)
 
     def face_detection(self, url_img):
-        s1 = time.time()
         img = cv2.imread(url_img)
-        s2 = time.time()
-        print(s2-s1, '111111')
-        dets = self.detector(img, 1)
-        s3 = time.time()
-        print(s3-s2, '222222')
+        print('img', img)
+        dets = self.detector(img)
+        print(dets, '------')
         shape = self.shape_predictor(img, dets[0])
-        s4 = time.time()
-        print(s4-s3, '3333333')
         face_des = self.face_rec_model.compute_face_descriptor(img, shape)
-        s5 = time.time()
-        print(s5-s4, "44444")
+
         return face_des
 
     # 欧式距离
@@ -45,7 +39,9 @@ class FaceRecognition:
 
     def score(self, url_img_1, url_img_2):
         data1 = self.face_detection(url_img_1)
+        print(data1, '111111111')
         data2 = self.face_detection(url_img_2)
+        print(data2, '22222')
         goal = self.dist_o(data1, data2)
         # 判断结果，如果goal小于0.6的话是同一个人，否则不是。我所用的是欧式距离判别
         return goal
@@ -58,8 +54,7 @@ face_rec_model_path = "./face_model/dlib_face_recognition_resnet_model_v1.dat"
 face_ = FaceRecognition(predictor_path, face_rec_model_path)
 
 
-img_1 = './faces/2016032528.png'
-img_2 = './faces/2.png'  # 000183_02159543
-m = time.time()
+img_1 = './static/images/test.png'
+img_2 = './faces/2016032518.png'  # 000183_02159543
 goal = face_.score(img_1, img_2)
-print(goal, time.time()-m, '---dddddddd---')
+print(goal, '---dddddddd---')

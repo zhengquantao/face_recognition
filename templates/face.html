@@ -9,6 +9,7 @@
     <style>
         body{
             background-image: url("/static/images/background.jpg");
+            background-repeat:no-repeat;
         }
         button{
             height:40px;
@@ -149,10 +150,14 @@
                         //get_code = false;
                         swal("操作成功!", response.msg, "success");
                         setTimeout(function(){location.reload()},2000)
-                    }else{
+                    }else if( response.status == 1010){
                         //get_code = false;
-                        swal("操作失败!", response.msg, "error");
+                        swal("操作成功!", response.msg, "success");
                         setTimeout(function(){location.reload()},2000)
+                    }else{
+                        swal("操作失败!", response.msg, "error");
+                        get_code = false
+                        // setTimeout(function(){location.reload()},2000)
                     }
                 }
             })
