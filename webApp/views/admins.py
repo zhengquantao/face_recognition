@@ -30,7 +30,9 @@ def add_person(request):
         is_user = UserAndTitle.objects.filter(username__job=job, title__profession="管理员")
         if not is_user:
             return redirect(information.error_path)
-        return render(request, "add_person.html")
+        list_person = UserInfo.objects.all().values("username", "job")
+        return render(request, "add_person.html", {"list_person": list_person})
+
     username = request.POST.get("username")
     job = request.POST.get("job")
     email = request.POST.get("email")
@@ -48,3 +50,13 @@ def add_person(request):
     except:
         return JsonResponse(information.timeout)
     return JsonResponse(information.add_success)
+
+
+@decoration.login
+def delete(request):
+    job = request.POST.get("job")
+    try:
+        UserInfo.objects.filter(job=job).delete()
+        return JsonResponse(information.delete)
+    except:
+        return JsonResponse(information.timeout)

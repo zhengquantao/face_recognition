@@ -6,7 +6,7 @@
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">增加用户</h1>
     </div>
-        <form class="col-md-6" style="top:20%;left:25%;">
+        <form class="col-md-6" style="left: 25%">
         {% csrf_token %}
             <div class="form-group row">
                 <label for="inputJob" class="col-md-1 col-form-label"><strong>工号</strong></label>
@@ -38,13 +38,62 @@
               <input type="email" class="form-control" id="inputEmail">
             </div>
           </div>
-
           <div class="form-group row">
             <div class="col-md-10">
               <button type="button" class="btn btn-primary" id="addPerson">确认增加</button>
             </div>
           </div>
         </form>
+    <hr>
+    <div class="person-list">
+         <h1 class="h2">用户列表</h1>
+        <div class="table-responsive">
+        <table class="table table-striped table-sm border">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>工号</th>
+              <th>姓名</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for item in list_person %}
+            <tr>
+              <td>{{ forloop.counter }}</td>
+              <td>{{ item.job }}</td>
+              <td>{{ item.username }}</td>
+              <td>
+                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal{{ forloop.counter }}">
+                    删除
+                    </button>
+              </td>
+            </tr>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal{{ forloop.counter }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">注意</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    是否删除 工号为{{ item.job }} 的用户
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary delete" value="{{ item.job }}">确认</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
 {% endblock %}
 {% block bottom %}
     <script src="/static/js/sweetalert.min.js"></script>
@@ -54,7 +103,7 @@
             send();
         }
     });
-    $('#addPerson').click(function () {
+    $("#addPerson").click(function () {
         send()
     });
     function send() {
@@ -71,6 +120,9 @@
                             "email": email, "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()}, function (data) {
                             if(data.status == 2002){
                                 swal("操作成功!", data.msg, "success");
+                                setTimeout(function () {
+                                    location.reload()
+                                }, 2000)
                             }else{
                                 swal("错误!", data.msg, "error");
                             }
@@ -88,5 +140,15 @@
              swal("错误!", "职工号不能为空!", "error");
         }
     }
+    $(".delete").click(function () {
+        $.post("/delete/", {"job": $(this).attr("value"), "csrfmiddlewaretoken": $("[name='csrfmiddlewaretoken']").val()}, function (response) {
+            if(response.status == 3001){
+                 location.reload()
+            }else{
+                swal("操作失败!", response.msg, "error");
+            }
+
+        })
+    })
 </script>
 {% endblock %}

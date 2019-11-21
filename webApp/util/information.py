@@ -13,7 +13,8 @@ record_erorr = {"status": 1008, "msg": "记录失败, 请刷新页面后重试"}
 is_image = {"status": 2001, "msg": "你已经录过人脸, 请勿重复操作"}
 add_success = {"status": 2002, "msg": "增加用户成功"}
 add_error = {"status": 2003, "msg": "增加失败, 请稍后再试"}
+delete = {"status": 3001, "msg": "操作成功"}
 error_path = "/error/"
 
-morning = [8, 12]
+morning = [8, 14]
 after = [12, 18]
