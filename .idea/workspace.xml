@@ -4,11 +4,7 @@
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/admins.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/admins.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,7 +283,13 @@
       <workItem from="1574050891673" duration="25366000" />
       <workItem from="1574137966089" duration="5067000" />
       <workItem from="1574255804918" duration="976000" />
-      <workItem from="1574314054513" duration="4482000" />
+      <workItem from="1574314054513" duration="4688000" />
+      <workItem from="1574396705416" duration="1002000" />
+      <workItem from="1574562157954" duration="284000" />
+      <workItem from="1574659197243" duration="240000" />
+      <workItem from="1574746308639" duration="282000" />
+      <workItem from="1574827555587" duration="117000" />
+      <workItem from="1574856366544" duration="1016000" />
     </task>
     <servers />
   </component>
