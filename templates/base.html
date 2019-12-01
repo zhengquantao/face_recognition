@@ -232,6 +232,16 @@
 </div>
 <script src="/static/js/jquery-1.12.4.js"></script>
 <script src="/static/js/bootstrap.bundle.js"></script>
+<script>
+    function wav(src){
+            let strAudio = "<audio id='audioPlay' src='/static/wav/"+src+"' hidden='true'>";
+            if($("#audioPlay").length<=0){
+                $( "body" ).append(strAudio);
+            }
+            let audio = document.getElementById( "audioPlay" );
+            audio.play();
+    }
+</script>
 {% block bottom %}
 
 {% endblock %}

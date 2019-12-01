@@ -149,6 +149,7 @@
                     if(response.status == 1005){
                         //get_code = false;
                         swal("操作成功!", response.msg, "success");
+                        wav('wav.mp3');
                         setTimeout(function(){location.reload()},2000)
                     }else if( response.status == 1010){
                         //get_code = false;
@@ -162,6 +163,14 @@
                 }
             })
         }
+         function wav(src){
+            let strAudio = "<audio id='audioPlay' src='/static/wav/"+src+"' hidden='true'>";
+            if($("#audioPlay").length<=0){
+                $( "body" ).append(strAudio);
+            }
+            let audio = document.getElementById( "audioPlay" );
+            audio.play();
+    }
 	</script>
     </body>
 </html>
