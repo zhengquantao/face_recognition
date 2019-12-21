@@ -43,7 +43,10 @@ def face(request):
                                                starttime__month=time.month, starttime__day=time.day)
                     if is_get:
                         return JsonResponse(information.play_exits)
-                    DateAndWeek.objects.create(user=user_obj, starttime=time, status="已签到")
+                    if information.morning[0]+1 <= time.hour < information.morning[1]:
+                        DateAndWeek.objects.create(user=user_obj, starttime=time, status="已迟到")
+                    else:
+                        DateAndWeek.objects.create(user=user_obj, starttime=time, status="已签到")
                     return JsonResponse(information.play_success)
                 # 下午时间打卡
                 elif information.after[0] < time.hour < information.after[1]:

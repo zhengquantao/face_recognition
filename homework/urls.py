@@ -29,5 +29,6 @@ urlpatterns = [
     path('person/', admins.person),
     path('insert/', admins.add_person),
     path('delete/', admins.delete),
+    path('export/', show.export), 
     path('', face.home)
 ]

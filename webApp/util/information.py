@@ -16,5 +16,5 @@ add_error = {"status": 2003, "msg": "增加失败, 请稍后再试"}
 delete = {"status": 3001, "msg": "操作成功"}
 error_path = "/error/"
 
-morning = [8, 14]
-after = [12, 18]
+morning = [8, 12]
+after = [14, 18]

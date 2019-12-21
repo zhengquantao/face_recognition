@@ -2,16 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/wav/false.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/wav/unwav.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/wav/wav.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-datepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/util/get_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_model/dlib_face_recognition_resnet_model_v1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/face_model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_model/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/face_model/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/2016032518.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032518.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/2016032528.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032528.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/2016032529.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032529.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/2016032531.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032531.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/camvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/camvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/facefinder" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/facefinder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/puploc.bin" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/puploc.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/examples/webcam.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/webcam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/lploc.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/lploc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/pico.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/pico.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sweetalert.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sweetalert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/password_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/password_mark.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/username_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/username_mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/camvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/camvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/facefinder" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/facefinder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lploc.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/lploc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pico.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pico.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/puploc.bin" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/puploc.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sweetalert.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sweetalert.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/wav/false.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/false.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/wav/unwav.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/unwav.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/wav/wav.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/wav.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/add_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/face.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/face.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_call.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_call.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_call_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_call_camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/decoration.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/decoration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/model/dlib_face_recognition_resnet_model_v1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/model/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/model/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/util/pwd.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/pwd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/admins.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/admins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/auths.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/auths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,25 +130,32 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="webApp_userinfo: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="webApp_title: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="webApp_userandtitle: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -60,9 +166,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -78,50 +185,45 @@
   </component>
   <component name="ProjectId" id="1TNC9zJUb1CBJVvPUCrIuczKn0G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/wav" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webApp/util/model" />
-      <recent name="$PROJECT_DIR$/picojs-master/examples" />
-      <recent name="$PROJECT_DIR$/webApp/util" />
-      <recent name="$PROJECT_DIR$/faces" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/wav" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/faces" />
       <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webApp/util" />
+      <recent name="$PROJECT_DIR$/webApp/util/model" />
+      <recent name="$PROJECT_DIR$/picojs-master/examples" />
+      <recent name="$PROJECT_DIR$/faces" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Django server.homework">
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/homework/templates/login.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,6 +260,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webApp/util/pwd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webApp/util/get_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,14 +342,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="homework.settings" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="0.0.0.0" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -236,30 +360,32 @@
     </configuration>
     <list>
       <item itemvalue="Django server.homework" />
-      <item itemvalue="JavaScript Debug.login.html" />
       <item itemvalue="Python.pwd" />
       <item itemvalue="Python.test_face2" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.face" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test_face2" />
         <item itemvalue="Python.face" />
         <item itemvalue="Python.pwd" />
         <item itemvalue="Python.tests" />
-        <item itemvalue="JavaScript Debug.login.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SshConsoleOptionsProvider">
@@ -302,6 +428,9 @@
       <workItem from="1574914870720" duration="101000" />
       <workItem from="1575178150757" duration="2907000" />
       <workItem from="1575186530311" duration="272000" />
+      <workItem from="1576835181163" duration="5844000" />
+      <workItem from="1576890166621" duration="640000" />
+      <workItem from="1576892407504" duration="23412000" />
     </task>
     <servers />
   </component>
@@ -321,12 +450,63 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576845614754">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576845614754" />
+    <state x="324" y="155" key="#homework" timestamp="1576836220762">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
+    <state x="549" y="299" key="FileChooserDialogImpl" timestamp="1576892345723">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
+    <state width="1253" height="436" key="GridCell.Tab.0.bottom" timestamp="1576920340651">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state width="1253" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340651" />
+    <state width="1253" height="436" key="GridCell.Tab.0.center" timestamp="1576920340649">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state width="1253" height="436" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340649" />
+    <state width="1253" height="436" key="GridCell.Tab.0.left" timestamp="1576920340648">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state width="1253" height="436" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340648" />
+    <state width="1253" height="436" key="GridCell.Tab.0.right" timestamp="1576920340650">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state width="1253" height="436" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340650" />
+    <state x="156" y="154" key="SettingsEditor" timestamp="1576892386590">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="156" y="154" key="SettingsEditor/0.0.1920.1026@0.0.1920.1026" timestamp="1576892386590" />
+    <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576918171845">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576918171845" />
+    <state x="1070" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1576890283270">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="1070" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576890283270" />
+    <state x="761" y="136" width="1016" height="793" key="dock-window-1" timestamp="1576920828116">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="761" y="136" width="1016" height="793" key="dock-window-1/0.0.1920.1026@0.0.1920.1026" timestamp="1576920828116" />
+    <state x="428" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1576835801367">
+      <screen x="0" y="0" width="1920" height="1026" />
+    </state>
+    <state x="428" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576835801367" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homework$test_face1.coverage" NAME="test_face1 Coverage Results" MODIFIED="1573303244297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1573794526306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test_face2.coverage" NAME="test_face2 Coverage Results" MODIFIED="1574142452155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test_face1.coverage" NAME="test_face1 Coverage Results" MODIFIED="1573303244297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$tests.coverage" NAME="tests Coverage Results" MODIFIED="1573909315289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp" />
     <SUITE FILE_PATH="coverage/homework$face.coverage" NAME="face Coverage Results" MODIFIED="1574141007660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp/util" />
-    <SUITE FILE_PATH="coverage/homework$test_face2.coverage" NAME="test_face2 Coverage Results" MODIFIED="1574142452155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test.coverage" NAME="test Coverage Results" MODIFIED="1576919349230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$pwd.coverage" NAME="pwd Coverage Results" MODIFIED="1573911221316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp/util" />
   </component>
 </project>
