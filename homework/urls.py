@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, re_path
-from webApp.views import login, show, admins, face, error
+from webApp.views import login, show, admins, face, error, test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,6 +29,7 @@ urlpatterns = [
     path('person/', admins.person),
     path('insert/', admins.add_person),
     path('delete/', admins.delete),
-    path('export/', show.export), 
+    path('export/', show.export),
+    path('text/', test.add_text),
     path('', face.home)
 ]

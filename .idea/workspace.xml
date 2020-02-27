@@ -2,114 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-datepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webApp/util/get_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webApp/views/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face_model/dlib_face_recognition_resnet_model_v1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/face_model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face_model/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/face_model/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/2016032518.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032518.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/2016032528.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032528.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/2016032529.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032529.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/2016032531.png" beforeDir="false" afterPath="$PROJECT_DIR$/faces/2016032531.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/camvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/camvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/facefinder" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/facefinder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/puploc.bin" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/puploc.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/examples/webcam.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/examples/webcam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/lploc.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/lploc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/pico.js" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/pico.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picojs-master/wasm/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/picojs-master/wasm/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/sweetalert.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sweetalert.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/password_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/password_mark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/username_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/username_mark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/camvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/camvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/echarts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/facefinder" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/facefinder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/lploc.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/lploc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/pico.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/pico.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/puploc.bin" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/puploc.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sweetalert.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sweetalert.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/wav/false.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/false.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/wav/unwav.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/unwav.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/wav/wav.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/wav/wav.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_person.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/face.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/face.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_call.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_call_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_call_camera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/decoration.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/decoration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/information.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/model/dlib_face_recognition_resnet_model_v1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/model/dlib_face_recognition_resnet_model_v1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/model/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/model/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/util/pwd.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/util/pwd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/admins.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/admins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/auths.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/auths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,20 +39,6 @@
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="webApp_title: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="webApp_userandtitle: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -196,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -209,6 +92,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webApp/util" />
+      <recent name="$PROJECT_DIR$/webApp/util/model" />
+      <recent name="$PROJECT_DIR$/picojs-master/examples" />
+      <recent name="$PROJECT_DIR$/faces" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/wav" />
@@ -216,14 +105,8 @@
       <recent name="$PROJECT_DIR$/faces" />
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webApp/util" />
-      <recent name="$PROJECT_DIR$/webApp/util/model" />
-      <recent name="$PROJECT_DIR$/picojs-master/examples" />
-      <recent name="$PROJECT_DIR$/faces" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Django server.homework">
     <configuration name="face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,7 +264,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@57a53206" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -430,7 +323,11 @@
       <workItem from="1575186530311" duration="272000" />
       <workItem from="1576835181163" duration="5844000" />
       <workItem from="1576890166621" duration="640000" />
-      <workItem from="1576892407504" duration="23412000" />
+      <workItem from="1576892407504" duration="23793000" />
+      <workItem from="1582510159630" duration="3634000" />
+      <workItem from="1582603235240" duration="771000" />
+      <workItem from="1582611461433" duration="2600000" />
+      <workItem from="1582786913364" duration="8799000" />
     </task>
     <servers />
   </component>
@@ -451,34 +348,52 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576845614754">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="397" y="89" key="#Notifications" timestamp="1582787379919">
+      <screen x="59" y="0" width="1861" height="982" />
+    </state>
+    <state x="397" y="89" key="#Notifications/59.0.1861.982@59.0.1861.982" timestamp="1582787379919" />
+    <state x="283" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582787504184">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576845614754" />
+    <state x="283" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/59.0.1861.982@59.0.1861.982" timestamp="1582787504184" />
     <state x="324" y="155" key="#homework" timestamp="1576836220762">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
-    <state x="549" y="299" key="FileChooserDialogImpl" timestamp="1576892345723">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582619371562">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
-    <state width="1253" height="436" key="GridCell.Tab.0.bottom" timestamp="1576920340651">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582619371562" />
+    <state width="1360" height="382" key="GridCell.Tab.0.bottom" timestamp="1582790521957">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
-    <state width="1253" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340651" />
-    <state width="1253" height="436" key="GridCell.Tab.0.center" timestamp="1576920340649">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855237" />
+    <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994311" />
+    <state width="1360" height="382" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582790521957" />
+    <state width="1360" height="382" key="GridCell.Tab.0.center" timestamp="1582790521955">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
-    <state width="1253" height="436" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340649" />
-    <state width="1253" height="436" key="GridCell.Tab.0.left" timestamp="1576920340648">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855235" />
+    <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994307" />
+    <state width="1360" height="382" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582790521955" />
+    <state width="1360" height="382" key="GridCell.Tab.0.left" timestamp="1582790521954">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
-    <state width="1253" height="436" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340648" />
-    <state width="1253" height="436" key="GridCell.Tab.0.right" timestamp="1576920340650">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855234" />
+    <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994300" />
+    <state width="1360" height="382" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582790521954" />
+    <state width="1360" height="382" key="GridCell.Tab.0.right" timestamp="1582790521956">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
-    <state width="1253" height="436" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920340650" />
+    <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855236" />
+    <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994309" />
+    <state width="1360" height="382" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582790521956" />
+    <state width="286" height="478" key="HiddenNamespacesPopup" timestamp="1582787384921">
+      <screen x="59" y="0" width="1861" height="982" />
+    </state>
+    <state width="286" height="478" key="HiddenNamespacesPopup/59.0.1861.982@59.0.1861.982" timestamp="1582787384921" />
     <state x="156" y="154" key="SettingsEditor" timestamp="1576892386590">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
@@ -487,10 +402,11 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576918171845" />
-    <state x="1070" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1576890283270">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="1096" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1582611462717">
+      <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state x="1070" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576890283270" />
+    <state x="1096" y="318" key="com.intellij.ide.util.TipDialog/59.0.1861.982@59.0.1861.982" timestamp="1582611462717" />
     <state x="761" y="136" width="1016" height="793" key="dock-window-1" timestamp="1576920828116">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
