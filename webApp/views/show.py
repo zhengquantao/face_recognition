@@ -26,7 +26,7 @@ def show(request):
         time_list = DateAndWeek.objects.filter(user__job=job, starttime__year=year).values("user__job", "user__username", "status", "starttime", "endtime")
         for i in range(7):
             time = get_time.getdate(i)
-            attendance_count = DateAndWeek.objects.filter(user__job=job, starttime__constains=time).count()
+            attendance_count = DateAndWeek.objects.filter(user__job=job, starttime__contains=time).count()
             attendance.append(attendance_count*100)
     item = {}
     try:

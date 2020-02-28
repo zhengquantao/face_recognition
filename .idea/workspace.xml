@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webApp/views/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,23 +23,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -264,17 +247,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@57a53206" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -327,7 +300,8 @@
       <workItem from="1582510159630" duration="3634000" />
       <workItem from="1582603235240" duration="771000" />
       <workItem from="1582611461433" duration="2600000" />
-      <workItem from="1582786913364" duration="8799000" />
+      <workItem from="1582786913364" duration="10844000" />
+      <workItem from="1582864074975" duration="2418000" />
     </task>
     <servers />
   </component>
@@ -361,35 +335,35 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
-    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582619371562">
+    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582804689671">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
-    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582619371562" />
-    <state width="1360" height="382" key="GridCell.Tab.0.bottom" timestamp="1582790521957">
+    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582804689671" />
+    <state width="1360" height="412" key="GridCell.Tab.0.bottom" timestamp="1582804691190">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855237" />
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994311" />
-    <state width="1360" height="382" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582790521957" />
-    <state width="1360" height="382" key="GridCell.Tab.0.center" timestamp="1582790521955">
+    <state width="1360" height="412" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582804691190" />
+    <state width="1360" height="412" key="GridCell.Tab.0.center" timestamp="1582804691188">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855235" />
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994307" />
-    <state width="1360" height="382" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582790521955" />
-    <state width="1360" height="382" key="GridCell.Tab.0.left" timestamp="1582790521954">
+    <state width="1360" height="412" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582804691188" />
+    <state width="1360" height="412" key="GridCell.Tab.0.left" timestamp="1582804691187">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855234" />
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994300" />
-    <state width="1360" height="382" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582790521954" />
-    <state width="1360" height="382" key="GridCell.Tab.0.right" timestamp="1582790521956">
+    <state width="1360" height="412" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582804691187" />
+    <state width="1360" height="412" key="GridCell.Tab.0.right" timestamp="1582804691189">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855236" />
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994309" />
-    <state width="1360" height="382" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582790521956" />
+    <state width="1360" height="412" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582804691189" />
     <state width="286" height="478" key="HiddenNamespacesPopup" timestamp="1582787384921">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
