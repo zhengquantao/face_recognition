@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/views/show.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/views/show.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/JavaScript/electron-vue-admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,18 +72,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webApp/util" />
-      <recent name="$PROJECT_DIR$/webApp/util/model" />
-      <recent name="$PROJECT_DIR$/picojs-master/examples" />
-      <recent name="$PROJECT_DIR$/faces" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/wav" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/faces" />
       <recent name="$PROJECT_DIR$/static/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webApp/util" />
+      <recent name="$PROJECT_DIR$/webApp/util/model" />
+      <recent name="$PROJECT_DIR$/picojs-master/examples" />
+      <recent name="$PROJECT_DIR$/faces" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.homework">
@@ -301,7 +298,7 @@
       <workItem from="1582603235240" duration="771000" />
       <workItem from="1582611461433" duration="2600000" />
       <workItem from="1582786913364" duration="10844000" />
-      <workItem from="1582864074975" duration="2418000" />
+      <workItem from="1582864074975" duration="3869000" />
     </task>
     <servers />
   </component>
@@ -335,35 +332,35 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
-    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582804689671">
+    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582940465832">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
-    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582804689671" />
-    <state width="1360" height="412" key="GridCell.Tab.0.bottom" timestamp="1582804691190">
+    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582940465832" />
+    <state width="1360" height="351" key="GridCell.Tab.0.bottom" timestamp="1582940467941">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855237" />
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994311" />
-    <state width="1360" height="412" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582804691190" />
-    <state width="1360" height="412" key="GridCell.Tab.0.center" timestamp="1582804691188">
+    <state width="1360" height="351" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582940467941" />
+    <state width="1360" height="351" key="GridCell.Tab.0.center" timestamp="1582940467940">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855235" />
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994307" />
-    <state width="1360" height="412" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582804691188" />
-    <state width="1360" height="412" key="GridCell.Tab.0.left" timestamp="1582804691187">
+    <state width="1360" height="351" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582940467940" />
+    <state width="1360" height="351" key="GridCell.Tab.0.left" timestamp="1582940467939">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855234" />
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994300" />
-    <state width="1360" height="412" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582804691187" />
-    <state width="1360" height="412" key="GridCell.Tab.0.right" timestamp="1582804691189">
+    <state width="1360" height="351" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582940467939" />
+    <state width="1360" height="351" key="GridCell.Tab.0.right" timestamp="1582940467940">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855236" />
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994309" />
-    <state width="1360" height="412" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582804691189" />
+    <state width="1360" height="351" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582940467940" />
     <state width="286" height="478" key="HiddenNamespacesPopup" timestamp="1582787384921">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
