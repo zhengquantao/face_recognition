@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -59,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/JavaScript/electron-vue-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -299,6 +318,13 @@
       <workItem from="1582611461433" duration="2600000" />
       <workItem from="1582786913364" duration="10844000" />
       <workItem from="1582864074975" duration="3869000" />
+      <workItem from="1582947465491" duration="1842000" />
+      <workItem from="1583114113328" duration="2116000" />
+      <workItem from="1583227165560" duration="1470000" />
+      <workItem from="1583397690275" duration="417000" />
+      <workItem from="1583549832850" duration="8413000" />
+      <workItem from="1583650996052" duration="4006000" />
+      <workItem from="1584157549805" duration="2092000" />
     </task>
     <servers />
   </component>
@@ -328,39 +354,45 @@
     </state>
     <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576845614754" />
     <state x="283" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/59.0.1861.982@59.0.1861.982" timestamp="1582787504184" />
+    <state x="234" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583633177528">
+      <screen x="0" y="0" width="1152" height="842" />
+    </state>
+    <state x="234" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1152.842@0.0.1152.842" timestamp="1583633177528" />
     <state x="324" y="155" key="#homework" timestamp="1576836220762">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
-    <state x="591" y="286" key="FileChooserDialogImpl" timestamp="1582940465832">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state x="531" y="282" key="FileChooserDialogImpl" timestamp="1583750490876">
+      <screen x="0" y="0" width="1858" height="968" />
     </state>
+    <state x="531" y="282" key="FileChooserDialogImpl/0.0.1858.968@0.0.1858.968" timestamp="1583750490876" />
     <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
-    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1582940465832" />
-    <state width="1360" height="351" key="GridCell.Tab.0.bottom" timestamp="1582940467941">
+    <state x="371" y="252" key="FileChooserDialogImpl/59.0.1093.864@59.0.1093.864" timestamp="1583116280063" />
+    <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1583398098961" />
+    <state width="1275" height="235" key="GridCell.Tab.0.bottom" timestamp="1583398106909">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855237" />
     <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994311" />
-    <state width="1360" height="351" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1582940467941" />
-    <state width="1360" height="351" key="GridCell.Tab.0.center" timestamp="1582940467940">
+    <state width="1275" height="235" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1583398106909" />
+    <state width="1275" height="235" key="GridCell.Tab.0.center" timestamp="1583398106907">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855235" />
     <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994307" />
-    <state width="1360" height="351" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1582940467940" />
-    <state width="1360" height="351" key="GridCell.Tab.0.left" timestamp="1582940467939">
+    <state width="1275" height="235" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1583398106907" />
+    <state width="1275" height="235" key="GridCell.Tab.0.left" timestamp="1583398106905">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855234" />
     <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994300" />
-    <state width="1360" height="351" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1582940467939" />
-    <state width="1360" height="351" key="GridCell.Tab.0.right" timestamp="1582940467940">
+    <state width="1275" height="235" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1583398106905" />
+    <state width="1275" height="235" key="GridCell.Tab.0.right" timestamp="1583398106908">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855236" />
     <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994309" />
-    <state width="1360" height="351" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1582940467940" />
+    <state width="1275" height="235" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1583398106908" />
     <state width="286" height="478" key="HiddenNamespacesPopup" timestamp="1582787384921">
       <screen x="59" y="0" width="1861" height="982" />
     </state>
@@ -373,15 +405,21 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576918171845" />
-    <state x="1096" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1582611462717">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state x="468" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1583115081783">
+      <screen x="59" y="0" width="1093" height="864" />
     </state>
     <state x="1070" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576890283270" />
+    <state x="468" y="280" key="com.intellij.ide.util.TipDialog/59.0.1093.864@59.0.1093.864" timestamp="1583115081783" />
     <state x="1096" y="318" key="com.intellij.ide.util.TipDialog/59.0.1861.982@59.0.1861.982" timestamp="1582611462717" />
-    <state x="761" y="136" width="1016" height="793" key="dock-window-1" timestamp="1576920828116">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="586" y="49" width="918" height="840" key="dock-window-1" timestamp="1584158070434">
+      <screen x="0" y="0" width="1858" height="968" />
     </state>
+    <state x="586" y="49" width="918" height="840" key="dock-window-1/0.0.1858.968@0.0.1858.968" timestamp="1584158070434" />
     <state x="761" y="136" width="1016" height="793" key="dock-window-1/0.0.1920.1026@0.0.1920.1026" timestamp="1576920828116" />
+    <state x="999" y="82" width="723" height="661" key="dock-window-2" timestamp="1584158767650">
+      <screen x="0" y="0" width="1858" height="968" />
+    </state>
+    <state x="999" y="82" width="723" height="661" key="dock-window-2/0.0.1858.968@0.0.1858.968" timestamp="1584158767650" />
     <state x="428" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1576835801367">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
