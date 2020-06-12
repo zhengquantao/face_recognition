@@ -33,10 +33,13 @@ windows用户 如果你有安装dlib失败，可能是以下原因
 ### 效果图
 * success
 <img src="https://github.com/zhengquantao/face_recognition/tree/master/static/images/success.png" width="100%">
+
 * fail
 <img src="https://github.com/zhengquantao/face_recognition/tree/master/static/images/fail.png" width="100%">
+
 * home
 <img src="https://github.com/zhengquantao/face_recognition/tree/master/static/images/home.png" width="100%">
+
 * login
 <img src="https://github.com/zhengquantao/face_recognition/tree/master/static/images/login.png" width="100%">
 
