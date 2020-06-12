@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b19bcf9a-c5ce-4e53-b6f4-54bfce17c0e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +56,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1TNC9zJUb1CBJVvPUCrIuczKn0G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -105,7 +96,7 @@
       <recent name="$PROJECT_DIR$/faces" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.homework">
+  <component name="RunManager" selected="Django Server.homework">
     <configuration name="face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +215,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="homework.settings" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="SDK_HOME" value="D:\Python\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -241,7 +232,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.homework" />
+      <item itemvalue="Django Server.homework" />
       <item itemvalue="Python.pwd" />
       <item itemvalue="Python.test_face2" />
       <item itemvalue="Python.tests" />
@@ -257,18 +248,6 @@
         <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -325,113 +304,75 @@
       <workItem from="1583549832850" duration="8413000" />
       <workItem from="1583650996052" duration="4006000" />
       <workItem from="1584157549805" duration="2092000" />
+      <workItem from="1591971858499" duration="1070000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="89" key="#Notifications" timestamp="1582787379919">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state x="121" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591971885588">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="397" y="89" key="#Notifications/59.0.1861.982@59.0.1861.982" timestamp="1582787379919" />
-    <state x="283" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582787504184">
-      <screen x="59" y="0" width="1861" height="982" />
-    </state>
-    <state x="231" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576845614754" />
-    <state x="283" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/59.0.1861.982@59.0.1861.982" timestamp="1582787504184" />
+    <state x="121" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591971885588" />
     <state x="234" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583633177528">
       <screen x="0" y="0" width="1152" height="842" />
     </state>
     <state x="234" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1152.842@0.0.1152.842" timestamp="1583633177528" />
-    <state x="324" y="155" key="#homework" timestamp="1576836220762">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state x="324" y="155" key="#homework/0.0.1920.1026@0.0.1920.1026" timestamp="1576836220762" />
     <state x="531" y="282" key="FileChooserDialogImpl" timestamp="1583750490876">
       <screen x="0" y="0" width="1858" height="968" />
     </state>
     <state x="531" y="282" key="FileChooserDialogImpl/0.0.1858.968@0.0.1858.968" timestamp="1583750490876" />
-    <state x="549" y="299" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1576892345723" />
-    <state x="371" y="252" key="FileChooserDialogImpl/59.0.1093.864@59.0.1093.864" timestamp="1583116280063" />
     <state x="591" y="286" key="FileChooserDialogImpl/59.0.1861.982@59.0.1861.982" timestamp="1583398098961" />
-    <state width="1275" height="235" key="GridCell.Tab.0.bottom" timestamp="1583398106909">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state width="1145" height="165" key="GridCell.Tab.0.bottom" timestamp="1591972953440">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855237" />
-    <state width="1253" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994311" />
+    <state width="1145" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972953440" />
     <state width="1275" height="235" key="GridCell.Tab.0.bottom/59.0.1861.982@59.0.1861.982" timestamp="1583398106909" />
-    <state width="1275" height="235" key="GridCell.Tab.0.center" timestamp="1583398106907">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state width="1145" height="165" key="GridCell.Tab.0.center" timestamp="1591972953440">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855235" />
-    <state width="1253" height="315" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994307" />
+    <state width="1145" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591972953440" />
     <state width="1275" height="235" key="GridCell.Tab.0.center/59.0.1861.982@59.0.1861.982" timestamp="1583398106907" />
-    <state width="1275" height="235" key="GridCell.Tab.0.left" timestamp="1583398106905">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state width="1145" height="165" key="GridCell.Tab.0.left" timestamp="1591972953440">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855234" />
-    <state width="1253" height="315" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994300" />
+    <state width="1145" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591972953440" />
     <state width="1275" height="235" key="GridCell.Tab.0.left/59.0.1861.982@59.0.1861.982" timestamp="1583398106905" />
-    <state width="1275" height="235" key="GridCell.Tab.0.right" timestamp="1583398106908">
-      <screen x="59" y="0" width="1861" height="982" />
+    <state width="1145" height="165" key="GridCell.Tab.0.right" timestamp="1591972953440">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1576920855236" />
-    <state width="1253" height="315" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576920994309" />
+    <state width="1145" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591972953440" />
     <state width="1275" height="235" key="GridCell.Tab.0.right/59.0.1861.982@59.0.1861.982" timestamp="1583398106908" />
-    <state width="286" height="478" key="HiddenNamespacesPopup" timestamp="1582787384921">
-      <screen x="59" y="0" width="1861" height="982" />
-    </state>
-    <state width="286" height="478" key="HiddenNamespacesPopup/59.0.1861.982@59.0.1861.982" timestamp="1582787384921" />
-    <state x="156" y="154" key="SettingsEditor" timestamp="1576892386590">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state x="156" y="154" key="SettingsEditor/0.0.1920.1026@0.0.1920.1026" timestamp="1576892386590" />
-    <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576918171845">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state x="0" y="146" width="1101" height="780" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576918171845" />
-    <state x="468" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1583115081783">
-      <screen x="59" y="0" width="1093" height="864" />
-    </state>
-    <state x="1070" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576890283270" />
-    <state x="468" y="280" key="com.intellij.ide.util.TipDialog/59.0.1093.864@59.0.1093.864" timestamp="1583115081783" />
-    <state x="1096" y="318" key="com.intellij.ide.util.TipDialog/59.0.1861.982@59.0.1861.982" timestamp="1582611462717" />
     <state x="586" y="49" width="918" height="840" key="dock-window-1" timestamp="1584158070434">
       <screen x="0" y="0" width="1858" height="968" />
     </state>
     <state x="586" y="49" width="918" height="840" key="dock-window-1/0.0.1858.968@0.0.1858.968" timestamp="1584158070434" />
-    <state x="761" y="136" width="1016" height="793" key="dock-window-1/0.0.1920.1026@0.0.1920.1026" timestamp="1576920828116" />
     <state x="999" y="82" width="723" height="661" key="dock-window-2" timestamp="1584158767650">
       <screen x="0" y="0" width="1858" height="968" />
     </state>
     <state x="999" y="82" width="723" height="661" key="dock-window-2/0.0.1858.968@0.0.1858.968" timestamp="1584158767650" />
-    <state x="428" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1576835801367">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state x="428" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1576835801367" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homework$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1573794526306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/homework$test_face2.coverage" NAME="test_face2 Coverage Results" MODIFIED="1574142452155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$test_face1.coverage" NAME="test_face1 Coverage Results" MODIFIED="1573303244297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$tests.coverage" NAME="tests Coverage Results" MODIFIED="1573909315289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp" />
-    <SUITE FILE_PATH="coverage/homework$face.coverage" NAME="face Coverage Results" MODIFIED="1574141007660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp/util" />
-    <SUITE FILE_PATH="coverage/homework$test.coverage" NAME="test Coverage Results" MODIFIED="1576919349230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$pwd.coverage" NAME="pwd Coverage Results" MODIFIED="1573911221316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp/util" />
+    <SUITE FILE_PATH="coverage/homework$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1573794526306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test_face2.coverage" NAME="test_face2 Coverage Results" MODIFIED="1574142452155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$test.coverage" NAME="test Coverage Results" MODIFIED="1576919349230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/homework$face.coverage" NAME="face Coverage Results" MODIFIED="1574141007660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webApp/util" />
   </component>
 </project>
