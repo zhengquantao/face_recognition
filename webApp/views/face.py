@@ -63,9 +63,6 @@ def face(request):
 def add(request):
     job = request.session.get("user")
     if request.method == "GET":
-        # is_image = UserInfo.objects.filter(job=job).values("image")
-        # if is_image:
-        #     return redirect(information.error_path)
         return render(request, "add.html")
 
     images = request.POST.get("img")

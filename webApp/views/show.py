@@ -74,7 +74,6 @@ def export(request):
     wb = xlwt.Workbook(encoding='utf8')
     # 创建一个sheet对象
     sheet = wb.add_sheet('order-sheet')
-
     # 设置文件头的样式,这个不是必须的可以根据自己的需求进行更改
     style_heading = xlwt.easyxf("""
                 font:
@@ -102,11 +101,9 @@ def export(request):
     sheet.write(0, 2, '签到时间', style_heading)
     sheet.write(0, 3, '签退时间', style_heading)
     sheet.write(0, 4, '状态', style_heading)
-
     # 写入数据
     data_row = 1
     # 这个是查询条件,可以根据自己的实际需求做调整.
-
     for i in excel_list:
         if i['starttime']:
             start_time = i['starttime'].strftime('%Y-%m-%d %H:%M:%S')
@@ -121,9 +118,7 @@ def export(request):
         sheet.write(data_row, 2, start_time)
         sheet.write(data_row, 3, end_time)
         sheet.write(data_row, 4, i['status'])
-
         data_row = data_row + 1
-
     # 写出到IO
     output = BytesIO()
     wb.save(output)

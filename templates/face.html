@@ -52,37 +52,29 @@
 		var get_code = false;
 		var path;
 		function button_callback() {
-			/*
-				(0) check whether we're already running face detection
-			*/
 			if(initialized)
-				return; // if yes, then do not initialize everything again
-			/*
-				(1) initialize the pico.js face detector
-			*/
-			var update_memory = pico.instantiate_detection_memory(5); // we will use the detecions of the last 5 frames
-			var facefinder_classify_region = function(r, c, s, pixels, ldim) {return -1.0;};
-			var cascadeurl = '/static/js/facefinder';
+				return;
+			var update_memory = pico.instantiate_detection_memory(5);
+			let facefinder_classify_region = function(r, c, s, pixels, ldim) {return -1.0;};
+			let cascadeurl = '/static/js/facefinder';
 			fetch(cascadeurl).then(function(response) {
 				response.arrayBuffer().then(function(buffer) {
-					var bytes = new Int8Array(buffer);
+					let bytes = new Int8Array(buffer);
 					facefinder_classify_region = pico.unpack_cascade(bytes);
 					console.log('* facefinder loaded');
 				})
 			})
-			var ctx = document.getElementsByTagName('canvas')[0].getContext('2d');
+			let ctx = document.getElementsByTagName('canvas')[0].getContext('2d');
 			function rgba_to_grayscale(rgba, nrows, ncols) {
-				var gray = new Uint8Array(nrows*ncols);
-				for(var r=0; r<nrows; ++r)
-					for(var c=0; c<ncols; ++c)
-						// gray = 0.2*red + 0.7*green + 0.1*blue
+				let gray = new Uint8Array(nrows*ncols);
+				for(let r=0; r<nrows; ++r)
+					for(let c=0; c<ncols; ++c)
 						gray[r*ncols + c] = (2*rgba[r*4*ncols+4*c+0]+7*rgba[r*4*ncols+4*c+1]+1*rgba[r*4*ncols+4*c+2])/10;
 				return gray;
 			}
-			var processfn = function(video, dt) {
+			let processfn = function(video, dt) {
 				ctx.drawImage(video, 0, 0);
-				var rgba = ctx.getImageData(0, 0, 640, 480).data;
-				// prepare input to `run_cascade`
+				let rgba = ctx.getImageData(0, 0, 640, 480).data;
 				image = {
 					"pixels": rgba_to_grayscale(rgba, 480, 640),
 					"nrows": 480,
@@ -90,25 +82,18 @@
 					"ldim": 640
 				}
 				params = {
-					"shiftfactor": 0.1, // move the detection window by 10% of its size
-					"minsize": 100,     // minimum size of a face
-					"maxsize": 1000,    // maximum size of a face
-					"scalefactor": 1.1  // for multiscale processing: resize the detection window by 10% when moving to the higher scale
+					"shiftfactor": 0.1,
+					"minsize": 100,
+					"maxsize": 1000,
+					"scalefactor": 1.1
 				}
-				// run the cascade over the frame and cluster the obtained detections
-				// dets is an array that contains (r, c, s, q) quadruplets
-				// (representing row, column, scale and detection score)
 				dets = pico.run_cascade(image, facefinder_classify_region, params);
 				dets = update_memory(dets);
-				dets = pico.cluster_detections(dets, 0.2); // set IoU threshold to 0.2
-				// draw detections
+				dets = pico.cluster_detections(dets, 0.2);
 				for(i=0; i<dets.length; ++i) {
-                    // check the detection score
-                    // if it's above the threshold, draw it
-                    // (the constant 50.0 is empirical: other cascades might require a different one)
                     if (dets[i][3] > 50.0) {
                         get_status = true;
-                        var r, c, s;
+                        let r, c, s;
                         ctx.beginPath();
                         ctx.arc(dets[i][1], dets[i][0], dets[i][2] / 2, 0, 2 * Math.PI, false);
                         ctx.lineWidth = 1;
@@ -131,8 +116,7 @@
                     }
                 }
 			};
-			var mycamvas = new camvas(ctx, processfn, get_status);
-            
+			let mycamvas = new camvas(ctx, processfn, get_status);
 			initialized = true;
 		}
 		function request(pa) {
@@ -147,18 +131,15 @@
                 data:formData,
                 success:function (response) {
                     if(response.status == 1005){
-                        //get_code = false;
                         swal("操作成功!", response.msg, "success");
                         wav('wav.mp3');
                         setTimeout(function(){location.reload()},2000)
                     }else if( response.status == 1010){
-                        //get_code = false;
                         swal("操作成功!", response.msg, "success");
                         setTimeout(function(){location.reload()},2000)
                     }else{
                         swal("操作失败!", response.msg, "error");
                         get_code = false
-                        // setTimeout(function(){location.reload()},2000)
                     }
                 }
             })
