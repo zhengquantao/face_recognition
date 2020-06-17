@@ -4,9 +4,8 @@
 '''
 
 import dlib
-import cv2
 import numpy as np
-import os
+import os, time
 
 
 class FaceCompare:
@@ -19,7 +18,7 @@ class FaceCompare:
         self.face_rec_model = dlib.face_recognition_model_v1(self.face_rec_model_path)
 
     def face_detection(self, url_img):
-        img = cv2.imread(url_img)
+        img = dlib.load_rgb_image(url_img)
         # 检测人脸
         faces = self.detector(img, 1)
         # # 提取68个特征点
@@ -33,12 +32,20 @@ class FaceCompare:
         dis = np.sqrt(sum((np.array(dist_1)-np.array(dist_2))**2))
         return dis
 
-    def score(self, url_img_1, url_img_2):
-        data1 = self.face_detection(url_img_1)
-        data2 = self.face_detection(url_img_2)
-        goal = self.compare(data1, data2)
-        # 判断结果，如果goal小于0.4的话是同一个人，否则不是。我所用的是欧式距离判别
-        return goal
+    def score(self, url_img):
+        data2 = self.face_detection(url_img)
+        for parent, dirnames, filenames in os.walk(os.path.join("faces")):
+            for img_path in filenames:
+                try:
+                    data1 = self.face_detection(os.path.join("faces", img_path))
+                    goal = self.compare(data1, data2)
+                    if goal < 0.4:
+                        # 判断结果，如果goal小于0.4的话是同一个人，否则不是。我所用的是欧式距离判别
+                        return goal, img_path
+                except Exception as e:
+                    print(e)
+                    pass
+            return 1
 
 
 predictor_path = os.path.join("webApp", "util", "model", "shape_predictor_68_face_landmarks.dat")

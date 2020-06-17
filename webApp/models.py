@@ -11,6 +11,7 @@ class UserInfo(models.Model):
     image = models.CharField(max_length=10, verbose_name="图片地址", null=True)
     password = models.CharField(max_length=64, verbose_name="密码", null=True)
     email = models.CharField(max_length=20, verbose_name="邮箱", null=True)
+    image_content = models.TextField(verbose_name="图片信息", null=True)
 
     class Meta:
         # db_table = "订单表"
