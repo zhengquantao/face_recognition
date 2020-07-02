@@ -75,8 +75,8 @@ def add(request):
         return JsonResponse(information.timeout)
     if not images:
         return JsonResponse(information.play_error)
-    is_image = UserInfo.objects.filter(job=job).values("image_content").first()
-    if is_image.image:
+    is_image = UserInfo.objects.filter(job=job).values("image", "image_content").first()
+    if is_image['image']:
         return JsonResponse(information.is_image)
     img = base64.b64decode(images.split(',')[1])
     img_path = os.path.join("faces", job+'.png')
